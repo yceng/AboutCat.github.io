@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Nerko+One&family=Poppins:wght@200;300;500&family=Roboto:ital@1&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:wght@200;300;500&family=Roboto:ital@1&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Hanken+Grotesk&family=Nerko+One&family=Poppins:wght@200;300;500&family=Roboto:ital@1&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Fredoka+One&family=Hanken+Grotesk&family=Nerko+One&family=Poppins:wght@200;300;500&family=Roboto:ital@1&family=Space+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+#title{
+    font-family: 'Fredoka One', cursive;
+    color:#06283D;
+    text-shadow: 1px 1px 5px rgb(165, 228, 255);
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    left: 35px;
+    top:10px;
+    margin: 5px 0 30px;
+    width: fit-content;
+}
+/*------------------Ragdoll----------------*/
+.ragdoll{
+    border: 3px dashed #FF7BA9;
+    background-color: lavender;
+    border-radius: 60px;
+    margin: 20px 80px;
+    padding: 20px 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width:650px;
+    max-width:800px;
+}
+.ragdoll h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 200;
+    color: #1A3C40;
+    padding: 5px 5px;
+    height:40px;
+    position:relative;
+    bottom:20px; 
+    left:70px;
+}
+.ragdoll p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    color: #06283D;
+    width: 350px;
+    text-align:justify;
+    margin:20px 30px 10px 0px ;
+    display: inline-block;
+    position: relative;
+    right:60px;
+    top:10px;
+}
+.ragdoll a{
+    position: relative;
+    display: inline-block;
+    background-color: #F6C6EA;
+    color:#645CAA;
+    width: 80px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    z-index:1;
+    font-size: 12px;
+    margin: 3px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition:2s;
+}
+.ragdoll a:hover{
+    color:#A084CA;
+    background-color: #ecd3ea;
+}
+.ragdoll img{
+    display: inline-block;
+    position: relative;
+    right:40px;
+    border-radius: 40%;
+}
+/*-------------Britishsh------------------*/
+.bluecat{
+    border: 3px dashed #FF7BA9;
+    background-color: lavender;
+    border-radius: 60px;
+    margin: 50px 80px 50px 330px;
+    padding: 20px 5px;
+    display: flex;
+    min-width:650px;
+    max-width:800px;
+}
+.bluecat h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    color: #1A3C40;
+    padding: 5px 5px;
+    min-width: fit-content;
+    height:40px;
+    position:relative;
+    bottom:20px; 
+    left:70px;
+    
+}
+.bluecat p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    color: #06283D;
+    width:350px;
+    text-align:justify;
+    margin:20px -50px 8px -25px ;
+    display: inline-block;
+    position: relative;
+    top:10px;
+    right: 160px;
+   
+}
+.bluecat a{
+    position: relative;
+    background-color: #F6C6EA;
+    color:#645CAA;
+    width: 80px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    z-index:1;
+    font-size: 12px;
+    margin: 3px 10px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition:2s;
+
+}
+.bluecat a:hover{
+    color:#A084CA;
+    background-color: #ecd3ea;
+}
+.bluecat img{
+    display: inline-block;
+    position: relative;
+    min-width: 230px;
+    right:40px;
+    border-radius: 40%;
+}
+/*------------------Minuet----------------*/
+.minuet{
+    border: 3px dashed #FF7BA9;
+    background-color: lavender;
+    border-radius: 60px;
+    margin: 20px 80px;
+    padding: 20px 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width:650px;
+    max-width:800px;
+
+}
+.minuet h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 200;
+    color: #1A3C40;
+    padding: 5px 5px;
+    height:40px;
+    position:relative;
+    bottom:20px; 
+    left:64px;
+
+}
+.minuet p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    color: #06283D;
+    width: 350px;
+    text-align:justify;
+    margin:20px 40px 10px 0px ;
+    display: inline-block;
+    position: relative;
+    right:60px;
+    top:10px;
+    
+}
+.minuet a{
+    position: relative;
+    display: inline-block;
+    background-color: #F6C6EA;
+    color:#645CAA;
+    width: 80px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    z-index:1;
+    font-size: 12px;
+    margin: 3px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition:2s;
+}
+.minuet a:hover{
+    color:#A084CA;
+    background-color: #ecd3ea;
+}
+.minuet img{
+    display: inline-block;
+    position: relative;
+    right:35px;
+    border-radius: 40%;
+}
+/*---------------American Shortcat------------------*/
+.usa{
+    border: 3px dashed #FF7BA9;
+    background-color: lavender;
+    border-radius: 60px;
+    margin: 50px 80px 50px 330px;
+    padding: 20px 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width:650px;
+    max-width:800px;
+
+}.usa h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    color: #1A3C40;
+    padding: 5px 5px;
+    min-width: fit-content;
+    height:40px;
+    position:relative;
+    bottom:20px; 
+    left:70px;
+
+}
+.usa p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    color: #06283D;
+    width:350px;
+    text-align:justify;
+    margin:20px -65px 8px;
+    display: inline-block;
+    position: relative;
+    top:10px;
+    right: 172px;
+}
+.usa a{
+    position: relative;
+    background-color: #F6C6EA;
+    color:#645CAA;
+    width: 80px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    z-index:1;
+    font-size: 12px;
+    margin: 3px 10px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition:2s;
+
+}
+.usa a:hover{
+    color:#A084CA;
+    background-color:#ecd3ea;
+
+}
+.usa img{
+    display: inline-block;
+    position: relative;
+    right:40px;
+    top:20px;
+    border-radius: 40%;
+}
